@@ -1,0 +1,124 @@
+.container2 {
+    height: 900px;
+    width: 80%;
+    border: 0px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.blog_heading {
+    height: 10%;
+    width: 95%;
+    border: 0px solid black;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    /*background-color: blue;*/
+}
+
+.blog_cards {
+    height: 85%;
+    width: 100%;
+    border: 0px solid #b8b8b8;
+    /*background-color: chartreuse;*/
+    display: flex;
+    
+}
+
+.blog_card_1 {
+    height: 70%;
+    width: 30%;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px 0px #eeeeee;
+    margin: auto;
+    margin-top: 5%;
+    
+}
+
+.blog_card_2 {
+    height: 70%;
+    width: 30%;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px 0px #eeeeee;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.blog_card_3 {
+    height: 70%;
+    width: 30%;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px 0px #eeeeee;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.blog_card_img {
+    height: 45%;
+    width: 100%;
+    border: 0px solid black;
+    background-color: #eeeeee;
+}
+
+.blog_card_content {
+    height: 55%;
+    width: 100%;
+    border: 0px solid black;
+    /*background-color: blueviolet;*/
+    text-align: center;
+}
+
+.read_more_btn {
+    height: 20%;
+    width: 40%;
+    align-content: center;
+    border: 1px solid #8ccc89;
+    border-radius: 5px;
+    background-color: #8ccc89;
+    font-family: "Alegreya", serif;
+    font-size: 18px;
+    color: white;
+}
+
+.read_more_btn:hover {
+    background-color: red;
+    border: 1px solid red;
+}
+
+a {
+    text-decoration: none;
+    color: #262626;
+}
+
+a:hover {
+    color: #d10042;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+}
+
+@media only screen and (max-width: 400px) {
+    .blog_cards {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    .blog_card_1 {
+        width: 100%;
+        height: 80%;
+    }
+
+    .blog_card_2 {
+        width: 100%;
+        height: 80%;
+    }
+
+    .blog_card_3{
+        width: 100%;
+        height: 80%;
+    }
+}
